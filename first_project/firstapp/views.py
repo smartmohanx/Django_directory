@@ -6,9 +6,9 @@ from firstapp.compiler import compiler_func
 
 # Create your views here.
 def defualt(request):
-    return HttpResponse("hello world, i am defualt page,created by mohanx.")
+    return render(request,'index.html')
 def home(request):
-    return HttpResponse("hello world, i am home page.")
+    return render(request,'home.html')
 
 def game_func(request):
     return game_tic_func()

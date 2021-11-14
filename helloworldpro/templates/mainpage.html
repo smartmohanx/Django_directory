@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<style>
+    body {
+        background-image: url('https://www.laryoo.com/wp-content/uploads/2019/04/fc952ca25a972575a06fe12360ca7630.jpg');
+    }
+</style>
+
+
+<body>
+    <h3>all calc tools are available here:)</h3> 
+
+<form action="addpage">
+    <input type="submit" value="addition page" name="addpage">
+</form>
+
+<form action="subpage">
+    <input type="submit" value="subtract page" name="subpage">
+</form>
+
+<form action="mulpage">
+    <input type="submit" value="multiply page" name="multpage">
+</form>
+
+<form action="divipage">
+    <input type="submit" value=" divide page  " name="divipage">
+</form>
+
+<!-- Contacts section start -->
+<div class="section" id="contacts">
+    <h1><span>Follow Me</span></h1>
+    <div>
+        <a href="https://www.facebook.com/smartmohanx143">
+            <img width="50" alt="Facebook" src="https://image.flaticon.com/icons/png/512/124/124010.png"/>
+        </a>
+        <a href="https://www.twitter.com/SmartMohanx">
+            <img width="53" alt="Twitter" src="https://www.vhv.rs/dpng/d/185-1851355_line-clipart-computer-icons-social-media-facebook-small.png" />
+        </a>
+
+        <a href="https://www.instagram.com/smartmohanx">
+            <img width="60" alt="instagram" src="https://i.pinimg.com/736x/c8/95/2d/c8952d6e421a83d298a219edee783167.jpg">
+        </a>
+    </div>
+</div>
+<!-- Contacts section end -->
+
+<div class="copyright">
+    &copy; 2020 Smart Mohanx Blog. All rights reserved.
+</div></body>
+
+{% endblock %}
